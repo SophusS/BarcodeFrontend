@@ -12,7 +12,11 @@
 </head>
 <body>
     <div id="app">
-        {{message}}
+        <ol>
+            <li v-for="carts in shoppingCarts">
+                {{carts.id}}
+            </li>
+        </ol>
     </div>
     
 <script src="js/index.js"></script>
